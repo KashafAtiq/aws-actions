@@ -198,11 +198,6 @@ Outputs:
     Export:
       Name: !Sub "${EnvironmentName}-PublicSubnetAz1Id"
 
-  PublicSubnetAz2Id:
-    Description: Public Subnet AZ2 ID
-    Value: !Ref PublicSubnetAz2
-    Export:
-      Name: !Sub "${EnvironmentName}-PublicSubnetAz2Id"
 
   PrivateSubnetAz1Id:
     Description: Private Subnet AZ1 ID
@@ -210,11 +205,6 @@ Outputs:
     Export:
       Name: !Sub "${EnvironmentName}-PrivateSubnetAz1Id"
 
-  PrivateSubnetAz2Id:
-    Description: Private Subnet AZ2 ID
-    Value: !Ref PrivateSubnetAz2
-    Export:
-      Name: !Sub "${EnvironmentName}-PrivateSubnetAz2Id"
 
   NatGatewayAz1Id:
     Description: NAT Gateway (AZ1) ID
